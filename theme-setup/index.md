@@ -1,14 +1,16 @@
 ---
-layout: page
 title: Theme Setup
-description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
+layout: page
+description: Instructions on how to install and customize the modern Jekyll theme
+  HPSTR.
 image:
   feature: abstract-11.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 share: true
----
+draft: false
 
+---
 General notes and suggestions for customizing **HPSTR**.
 
 HPSTR now requires [Jekyll](http://jekyllrb.com/) 3.0. Make sure to run `bundle update` if you aren't on the latest version to update all gem dependencies.
@@ -202,7 +204,7 @@ Post and page thumbnails work the same way. These are used by [Open Graph](https
 
 Here's an example of what a tweet to your site could look like if you activate Twitter Cards and include all the metas in your post's YAML.
 
-![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
+![Twitter Card summary large image screenshot]({{ site.baseurl }}/images/twitter-card-summary-large-image.jpg)
 
 ### Videos
 
